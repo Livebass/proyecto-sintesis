@@ -1,0 +1,47 @@
+/*Excepto en algunas partes del codigo que especifico que la sintaxis es abreviada, 
+lo demas es no abreviada*/
+/*Esto es el body*/
+body {
+    background-image:url(/home/users/inf/xism2/ism43456441/Documents/repositori/proyecto-sintesis/img/teahub.io-circuit-board-wallpaper-hd-2090875.jpg);
+    background-size: cover;
+    background-color: grey;
+    }
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: yellow;
+}
+/*Imagen*/
+  .myimage {
+    margin: auto;
+    display: block;
+    width: 1000px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: blue;
+    }
+
+    .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+    .topnav a:hover {
+    background-color: green;
+    color: black;
+    }
+
+    .topnav a.active {
+    background-color: red;
+    color: black;
+    }
+    .p1 {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
