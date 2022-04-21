@@ -3,13 +3,24 @@ lo demas es no abreviada*/
 /*Esto es el body*/
 body {
     background-image:url(/home/users/inf/xism2/ism43456441/Documents/repositori/proyecto-sintesis/img/teahub.io-circuit-board-wallpaper-hd-2090875.jpg);
-    background-size: cover;
-    background-color: grey;
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-attachment: fixed; 
+    background-size:cover;
     }
 h1 {
     text-align: center;
     font-size: 100px;
     color: yellow;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+}
+p {
+  text-align: center;
+  font-style: bolt;
 }
 /*Imagen*/
   .myimage {
@@ -45,3 +56,41 @@ h1 {
         padding-left: 50px;
         padding-right: 50px;
     }
+    
+    .b2 {
+      background: linear-gradient(180deg, red 0%, #9C0001 49%, lightblue 50%, blue 100%);
+      background-size: 1px 100px;
+      transition: all .5s;
+      float: right;
+      padding: 16px 32px;
+  }
+  .b2:hover {
+    background-position: 0 -50px;
+    transition: all .5s;
+}
+.login {
+  padding: 5px 10px;
+}
+.b1 {
+  background: linear-gradient(180deg, yellow 0%, orange 49%, white 50%, #FFFFF0 100%);
+  background-size: 1px 100px;
+  transition: all .5s;
+  float: left;
+  padding: 16px 32px;
+}
+.b1:hover {
+background-position: 0 -50px;
+transition: all .5s;
+}
+.login {
+  background: linear-gradient(180deg, white 0%, white 49%, grey 50%, grey 100%);
+  background-size: 1px 100px;
+  float: right;
+}
+.login:hover {
+  background-position: 0 -50px;
+}
+.pepo {
+  float: right;
+  width: 10%;
+}
