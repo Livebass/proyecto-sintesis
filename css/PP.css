@@ -94,3 +94,6 @@ transition: all .5s;
   float: right;
   width: 10%;
 }
+table {
+  border: 2px black solid;
+}
