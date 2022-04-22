@@ -90,16 +90,4 @@ transition: all .5s;
 .login:hover {
   background-position: 0 -50px;
 }
-.jorge {
-  width: 50%;
-}
-.pau {
-  width: 30%;
-}
-.xavi {
-  width: 20%;
-}
-table {
-  text-align: center;
-  background-color: rgb(192, 193, 186, 0.1)
-}
+
