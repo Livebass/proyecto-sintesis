@@ -1,6 +1,3 @@
-/*Excepto en algunas partes del codigo que especifico que la sintaxis es abreviada, 
-lo demas es no abreviada*/
-/*Esto es el body*/
 body {
     background-image:url(img/teahub.io-circuit-board-wallpaper-hd-2090875.jpg);
     background-repeat: no-repeat; 
@@ -53,6 +50,7 @@ p {
     }
     .p1 {
         text-align: center;
+        color: black;
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -89,17 +87,4 @@ transition: all .5s;
 }
 .login:hover {
   background-position: 0 -50px;
-}
-.jorge {
-  width: 50%;
-}
-.pau {
-  width: 30%;
-}
-.xavi {
-  width: 20%;
-}
-table {
-  text-align: center;
-  background-color: rgb(192, 193, 186, 0.1)
 }

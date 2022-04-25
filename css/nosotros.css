@@ -1,3 +1,34 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+    }
+
+    .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+    .topnav a:hover {
+    background-color: green;
+    color: black;
+    }
+
+    .topnav a.active {
+    background-color: red;
+    color: black;
+    }
+    body {
+    background-image:url(img/teahub.io-circuit-board-wallpaper-hd-2090875.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-attachment: fixed; 
+    background-size:cover;
+    }
 .container {
     height: 100vh;
     width: 100vw;
@@ -52,15 +83,12 @@
     opacity: 1;
     color: red;
   }
-  .card0:hover .fa {
-    opacity: 1;
-  }
   .card1 {
-    background: url("img/xavi1.jpg") center center no-repeat;
+    background: url("img/xavi2.jpg") center center no-repeat;
     background-size: 300px;
   }
   .card1:hover {
-    background: url("img/xavi1.jpg") left center no-repeat;
+    background: url("img/xavi2.jpg") left center no-repeat;
     background-size: 600px;
   }
   .card1:hover h2 {
@@ -71,22 +99,20 @@
     opacity: 1;
     color: black;
   }
-  .card1:hover .fa {
-    opacity: 1;
-  }
   .card2 {
-    background: url("img/jorge.jpg") center center no-repeat;
+    background: url("img/jorge1.jpg") center center no-repeat;
     background-size: 300px;
   }
   .card2:hover {
-    background: url("img/jorge.jpg") left center no-repeat;
+    background: url("img/jorge1.jpg") left center no-repeat;
     background-size: 600px;
   }
   .card2:hover h2 {
     opacity: 1;
   }
-  .card2:hover .fa {
+  .card2:hover p {
     opacity: 1;
+    color: black;
   }
   .card3 {
     background: url("img/Albert1.jpg") center center no-repeat;
@@ -99,8 +125,9 @@
   .card3:hover h2 {
     opacity: 1;
   }
-  .card3:hover .fa {
+  .card3:hover p {
     opacity: 1;
+    color: black;
   }
   h2 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -116,20 +143,3 @@
     opacity: 0;
     transition: opacity 1s;
   }
-  .fa {
-    opacity: 0;
-    transition: opacity 1s;
-  }
-  .icons {
-    position: absolute;
-    fill: #fff;
-    color: #fff;
-    height: 130px;
-    top: 226px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
